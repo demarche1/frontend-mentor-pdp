@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Roboto&display=swap');
+
+* {
+  font-family: 'Kumbh Sans', 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: unset;
+}
+
+$primary-orange: hsl(26, 100%, 55%);
+$pale-orange: hsl(25, 100%, 94%);
+$vark-blue: hsl(220, 13%, 13%);
+$grayish-blue: hsl(219, 9%, 45%);
+$light-grayish-blu: hsl(223, 64%, 98%);
+$w: hsl(0, 0%, 100%);
+$b: hsl(0, 0%, 0%);
+
+body p{
+  font-size: 16px;
+}
+
+#app {
+  height: 100%;
+}
+
+footer {
+  margin-top: 50px;
+}
